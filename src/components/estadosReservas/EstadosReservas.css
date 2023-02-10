@@ -1,0 +1,114 @@
+.estado-form-container {
+    align-content: center;
+    background-color: azure;
+    height:80vh;
+    display: flex;
+    align-items:initial;
+    padding-left: 40px;
+    }
+    
+    .estado-form-container h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    }
+
+    .reserva-table {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        border: 3px solid black;
+        }
+
+        .reserva-header {
+        margin-bottom: 15px;
+            }
+        .reserva-header2 {
+        margin-bottom: 15px;
+        margin-left: 35px;
+            }
+        
+        .reserva-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+        border: 1px solid black;
+       
+        }
+        .reserva-row1 {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        width: 100%;
+        gap: 55px;
+        border: 1px solid black;
+  
+        }
+            
+        .reserva-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        }
+        
+        .reserva-column h4 {
+        margin-bottom: 10px;
+        }
+
+        .estado-input {
+        font-size: 15px;
+        padding: 10px 5px;
+        background-color: hwb(210 72% 23%);
+        border-radius: 5px;
+        color: rgb(17, 1, 1);
+        border: none;
+        cursor:text;
+        text-align: center;
+            }
+        
+        .estado-button {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 10px;
+        }
+        
+        .estado-button:hover {
+        background-color: #3e8e41;
+        }
+
+        .get{
+        width: 100%;
+        align-content: center;
+        background-color: azure;
+        display: flex;
+        justify-content: center;
+        align-items:initial;
+        padding-left: 40px;
+            }
+
+        .estado-button2 {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #2516b4;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 10px;
+            }
+            
+        .estado-button2:hover {
+        background-color: #130591;
+            }

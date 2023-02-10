@@ -1,0 +1,173 @@
+{
+    "_format": "hh-sol-artifact-1",
+    "contractName": "Colas",
+    "sourceName": "solidity/contracts/Colas.sol",
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "idReserva",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "nombre",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "apellido",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "dni",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "precioVenta",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "dueno",
+            "type": "address"
+          }
+        ],
+        "name": "ReservaComprada",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_idReserva",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_precioVenta",
+            "type": "uint256"
+          }
+        ],
+        "name": "comprarReserva",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_nombre",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "_apellido",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_dni",
+            "type": "uint256"
+          }
+        ],
+        "name": "crearReserva",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "reservas",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "idReserva",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "nombre",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "apellido",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "dni",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "precioVenta",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address payable",
+            "name": "dueno",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "reservasPorAddress",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_nuevoPrecioReserva",
+            "type": "uint256"
+          }
+        ],
+        "name": "setDefaultValor",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]
+  }
+  

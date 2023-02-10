@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .wallet {
+    width: 100%;
+    height: 20vh;
+    background-color: aquamarine;
+  }
+  .reservacrear {
+    width: 100%;
+    background-color: azure;
+  }

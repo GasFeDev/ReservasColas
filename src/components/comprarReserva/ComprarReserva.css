@@ -1,0 +1,61 @@
+.compra-form-container {
+    width: 100%;
+    align-content: center;
+    background-color: azure;
+    height:80vh;
+    
+    }
+    
+    .compra-form-container h1,h4 {
+    width: 70%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    }
+    .compra-form-container h2 {
+    width: 70%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    }
+    .compra-form-container h3 {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 50px;
+   
+    }
+        
+    .compra-form-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    position: relative;
+    top: 7%;
+    }
+    
+    .compra-form-container label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+    
+    .compra-form-container input {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+    .compra-form-container button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .compra-form-container button:hover {
+    background-color: #3e8e41;
+    }
+    

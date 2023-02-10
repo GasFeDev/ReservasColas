@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.confcomp {
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 100vh;
+    background-color: azure;
+    }
+
+.aviso {
+    position: relative;
+    bottom: 60px;
+    color: rgb(1, 56, 1);
+    }
+.avisoh2 {
+    position: relative;
+    color: white;
+    display: initial;
+    top: 18px;
+    background-color: rgb(1, 56, 1);
+    padding: 11px;
+    border-radius: 10%;
+    }
+.pos {
+    position: relative;
+    color: white;
+    display: initial;
+    top: 3px;
+    padding: 11px;
+    border-radius: 10%;
+    }
+
+.aviso1 {
+    position: relative;
+    display: inline-block;
+    width: 70vw;
+    bottom: 6px;
+    color: rgb(1, 56, 1);
+    font-size: 25px;
+    border: 3px solid black;
+    }
+.datos {
+    position: relative;
+    display: initial;
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+    border-radius: 10%;
+    background-color: rgb(1, 56, 1);
+    }
+
+.dash{
+    width: inherit;
+    align-content: center;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+    padding-left: 40px;
+    }
+
+.button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #2516b4;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    }
+
+    .button:hover {
+    background-color: #130591;
+    }

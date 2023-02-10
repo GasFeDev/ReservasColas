@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.confcrear {
+    text-align: center;
+    height: 100vh;
+    background-color: azure;
+    }
+
+.msg {
+    position: relative;
+    bottom: 60px;
+    color: rgb(1, 56, 1);
+    }
+.msgh2 {
+    position: relative;
+    color: white;
+    display: initial;
+    top: 18px;
+    background-color: rgb(1, 56, 1);
+    padding: 11px;
+    border-radius: 10%;
+    }
+.pos {
+    position: relative;
+    color: white;
+    display: initial;
+    top: 3px;
+    padding: 11px;
+    border-radius: 10%;
+    }
+
+.msg1 {
+    position: relative;
+    display: inline-block;
+    width: 70vw;
+    color: rgb(1, 56, 1);
+    font-size: 25px;
+    border-color: transparent;
+    }
+.msg2 {
+    position: relative;
+    display: inline-block;
+    width: 70vw;
+    bottom: 6px;
+    font-size: 25px;
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    }
+
+.datos {
+    position: relative;
+    display: initial;
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+    border-radius: 10%;
+    background-color: rgb(1, 56, 1);
+    }
+
+.dashboard{
+    width: inherit;
+    align-content: center;
+    background-color: azure;
+    display: flex;
+    justify-content:flex-end;
+    align-items:initial;
+    padding-left: 0px;
+    background-color: white;
+    }
+
+.button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #2516b4;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    }
+
+    .button:hover {
+    background-color: #130591;
+    }
